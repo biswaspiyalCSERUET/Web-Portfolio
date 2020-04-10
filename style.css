@@ -1,13 +1,18 @@
 body{
     margin: 0px;
-    font-family: 'Gotu', sans-serif;
-font-family: 'Dancing Script', cursive;
+    font-family: 'Dosis', sans-serif;
 }
 h1{
     font-size: 50px;
 }
-.name-highlight{
-    color: firebrick;
+h2{
+    font-size: 40px;
+}
+p{
+    color:gray;
+}
+.orange-highlight{
+    color: orangered;
 }
 .half-width
 {
@@ -27,4 +32,58 @@ h1{
 section
 {
     height: 500px;
+    padding-bottom: 150px;
+}
+.Link-Button1
+{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.Link-Button2
+{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(122, 213, 255),rgb(59, 89, 226));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+.dream-area
+{
+    background-image: url("Images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience
+{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+}
+.experience-area
+{
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#Full-Stack
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#Noob
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
